@@ -1,0 +1,32 @@
+#robot taking pizza order pseudocode
+
+if order is online
+	while system is on
+		recieve notification that order is placed
+		read order
+			get order
+			
+
+else if order is in_person
+	ask person
+		get order
+
+
+else if order is via phone
+	ask person
+		get order
+
+
+get order:
+	quantity
+	toppings
+		size
+		special crust
+	delivery
+			location
+			time
+			contact info
+	sends ticket to food preparers
+	if ticket recieved
+		send confirmation
+		state ready time
